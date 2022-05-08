@@ -1,0 +1,52 @@
+.virus{
+    -fx-background-image: url("../img/virus.jpg");
+    -fx-opacity: 0.3;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.zupanija{
+    -fx-background-image: url("../img/zupanija.jpg");
+    -fx-opacity: 0.3;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.simptom{
+    -fx-background-image: url("../img/simptom.jpg");
+    -fx-opacity: 0.3;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.osoba{
+    -fx-background-image: url("../img/osoba.jpg");
+    -fx-opacity: 0.3;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.bolest{
+    -fx-background-image: url("../img/bolest.jpg");
+    -fx-opacity: 0.3;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.izbornik{
+    -fx-background-image: url("../img/izbornik.jpg");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}

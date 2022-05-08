@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10.0" prefHeight="400.0" prefWidth="600.0" styleClass="izbornik" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.PocetniEkranController">
+    <rowConstraints>
+        <RowConstraints maxHeight="45.0" minHeight="0.0" prefHeight="21.0" valignment="TOP" />
+        <RowConstraints maxHeight="390.0" minHeight="345.0" prefHeight="369.0" valignment="TOP" />
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+    </columnConstraints>
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="izbornik" stylesheets="@style/style.css" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+        <fx:include fx:id="izbornik" source="izbornik.fxml" />
+    </children>
+</GridPane>
